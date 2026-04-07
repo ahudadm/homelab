@@ -37,3 +37,4 @@ cp systemd/system-update.service /etc/systemd/system
 cp systemd/system-update.timer /etc/systemd/system
 system daemon-reload
 systemctl enable --now system-update.timer
+'''
