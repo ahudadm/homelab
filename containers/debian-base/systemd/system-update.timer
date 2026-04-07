@@ -1,0 +1,10 @@
+[Unit]
+Description=Run system update weekly
+
+[Timer]
+OnCalendar=weekly
+Persistent=true
+Unit=system-update.service
+
+[Install]
+WantedBy=timers.target
