@@ -32,9 +32,9 @@ Base Debian 12 LXC container running on Proxmox.
  - Logs: /var/log/system-update.log
 
 ### Install systemd timer
-'''bash
+```bash
 cp systemd/system-update.service /etc/systemd/system
 cp systemd/system-update.timer /etc/systemd/system
 system daemon-reload
 systemctl enable --now system-update.timer
-'''
+```
