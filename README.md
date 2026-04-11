@@ -20,6 +20,7 @@ Personal homelab built on a 2011 Macbook Pro running Proxmox VE.
 | Name | OS | RAM | Purpose |
 |------|----|-----|---------|
 | debian-01 | Debian 12 | 512MB | Learning/Practice |
+| adguard | Debian 12 | 512MB | Network DNS Ad Blocker |
 
 ## Structure
  - containers/ - LXC containers configs and scripts
